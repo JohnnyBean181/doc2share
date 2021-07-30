@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {"name": "Walter", "category": 1},
+    {"name": "Skyler", "category": 2},
+    {"name": "Walter Jr.", "category": 2},
+	{"name": "Ted", "category": 3},
+	{"name": "Michael", "category": 2},
+    {"name": "Jesse", "category": 1},
+    {"name": "Kelly", "category": 3},
+    {"name": "Skinny", "category": 3},
+	{"name": "Saul", "category": 2},
+    {"name": "Jane", "category": 3},
+	{"name": "Mac:08-D2-3E-A0-81-1A", "category": 4},
+	{"name": "Mac:F0-2F-74-F7-9A-CF", "category": 4},
+	{"name": "Phone:13601580217", "category": 4},
+	{"name": "Phone:18965428960", "category": 4},
+	{"name": "Phone:19565706070", "category": 4}
+  ],
+  "links": [
+    {"source": "Ted", "target": "Mac:08-D2-3E-A0-81-1A", "value": 200},
+    {"source": "Ted", "target": "Mac:F0-2F-74-F7-9A-CF", "value": 100},
+    {"source": "Ted", "target": "Phone:13601580217", "value": 50},
+    {"source": "Ted", "target": "Phone:18965428960", "value": 150},
+    {"source": "Kelly", "target": "Mac:08-D2-3E-A0-81-1A", "value": 100},
+    {"source": "Kelly", "target": "Phone:13601580217", "value": 100},
+    {"source": "Jane", "target": "Mac:08-D2-3E-A0-81-1A", "value": 50},
+    {"source": "Jane", "target": "Mac:F0-2F-74-F7-9A-CF", "value": 50},
+    {"source": "Jane", "target": "Phone:19565706070", "value": 50},
+	{"source": "Skinny", "target": "Phone:13601580217", "value": 50},
+	{"source": "Skinny", "target": "Phone:18965428960", "value": 50},
+	{"source": "Skinny", "target": "Phone:19565706070", "value": 50},
+	{"source": "Mac:08-D2-3E-A0-81-1A", "target": "Walter", "value": 350},
+    {"source": "Phone:18965428960", "target": "Walter", "value": 200},
+	{"source": "Phone:13601580217", "target": "Walter", "value": 100},
+	{"source": "Mac:F0-2F-74-F7-9A-CF", "target": "Jesse", "value": 150},
+	{"source": "Phone:13601580217", "target": "Jesse", "value": 100},
+	{"source": "Phone:19565706070", "target": "Jesse", "value": 100}
+  ]
+}
