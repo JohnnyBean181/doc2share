@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    {"id": "Walter", "group": 1},
+    {"id": "Skyler", "group": 2},
+    {"id": "Walter Jr.", "group": 2},
+	{"id": "Ted", "group": 3},
+	{"id": "Michael", "group": 2},
+    {"id": "Jesse", "group": 1},
+    {"id": "Kelly", "group": 3},
+    {"id": "Skinny", "group": 3},
+	{"id": "Saul", "group": 2},
+    {"id": "Jane", "group": 3}
+  ],
+  "links": [
+    {"source": "Walter", "target": "Skyler", "value": 100000},
+    {"source": "Walter", "target": "Walter Jr.", "value": 200000},
+    {"source": "Walter Jr.", "target": "Skyler", "value": 200000},
+    {"source": "Skyler", "target": "Ted", "value": 300000},
+    {"source": "Walter", "target": "Michael", "value": 150000},
+    {"source": "Michael", "target": "Kelly", "value": 150000},
+    {"source": "Jesse", "target": "Saul", "value": 100000},
+    {"source": "Saul", "target": "Skinny", "value": 100000},
+    {"source": "Jesse", "target": "Michael", "value": 100000},
+    {"source": "Michael", "target": "Jane", "value": 100000}
+  ]
+}
