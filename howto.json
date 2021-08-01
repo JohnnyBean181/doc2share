@@ -1,0 +1,10 @@
+{
+  "name": "How to catch Market Manipulation", "children": [
+    {"name": "Part 1. Find related investment accounts", "children": [
+     {"name": "Scene 1. Financial relationship"},
+     {"name": "Scene 2. Operational relationship"}]},
+    {"name": "Part 2. Analyze abnormal transactions", "children": [
+      {"name": "Scene 3. Abnormal buying and selling"},
+      {"name": "Scene 3. which lead to abnormal stock price"}]}
+  ]
+}
